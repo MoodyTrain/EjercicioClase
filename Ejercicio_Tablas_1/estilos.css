@@ -4,14 +4,14 @@ html {
 
 table {
     border-collapse: collapse;
-    border: 2px solid #008080;
+    border: 2px solid #560000;
     letter-spacing: 1px;
     font-size: 0.8rem;
 }
 
 td,
 th {
-    border: 1px solid #006060;
+    border: 1px solid #000000;
     padding: 10px 20px;
 }
 
@@ -20,17 +20,18 @@ th {
 }
 
 td {
-    text-align: center;
+    text-align: right;
 }
 
 tr:nth-child(even) td {
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(209, 104, 104);
 }
 
 tr:nth-child(odd) td {
-    background-color: rgb(232, 232, 232);
+    background-color: rgb(81, 195, 115);
 }
 
+tfoot tr:first-child td{background-color: rgb(79, 79, 200);}
 caption {
     padding: 10px;
 }
