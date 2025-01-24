@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Asegura que el cuerpo y el html ocupen todo el alto del viewport */
+}
+
+.contenedor {
+  position: relative; /* Establece una posición relativa */
+  height: 50vh; /* Utiliza el 100% del alto del viewport */
+  width: 50vh;
+  border: solid 3px red;
+  margin-left: 25vw;
+  margin-top: 25vw;
+}
+
+.centrado {
+  position: absolute; /* Establece una posición absoluta */
+  top: 50px; /* Sitúa el elemento en el 50% de la altura del contenedor */
+  left: 50px; /* Sitúa el elemento en el 50% del ancho del contenedor */
+  text-align: center; /* Alineación del texto */
+  border: solid 3px turquoise;
+}
+
+.fa-star {
+  font-size: 45px; /* Tamaño del icono */
+  color: gold; /* Color del icono (cambia según tus preferencias) */
+}
