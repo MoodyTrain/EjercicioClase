@@ -1,0 +1,24 @@
+*{
+
+    color:rgb(0, 0, 0)
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    font-style: italic;
+    text-align: center;
+}
+.borde_redondo{
+    border: solid 2px gray;
+    border-radius: 15px;
+}
+
+#pie{
+    background-color:rgb(134, 39, 145);
+    color:aliceblue;
+}
+
+article img {
+    width: 150px;
+}
+
